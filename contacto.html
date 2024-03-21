@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>contacto</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "./estilos.css">
+        <link rel = "stylesheet" href = "./font.css">
+        <link rel = "stylesheet" href = "./normalize.css">
+        <link rel = "stylesheet" href = "./responsive.css">
+        <link rel = "stylesheet" href = "./utility.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class="main">
+                <div class="logo">
+                <img src="./logonew.png.png">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">inicio</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "galery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "servicios.html" class = "nav-link">servicios</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contacto.html" class = "nav-link">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Contacto</h1>
+                    <p>estamos aquí para responder a todas tus preguntas, ayudarte a planificar tu próximo viaje y asegurarnos de que tengas la mejor experiencia posible.</p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- contact section -->
+        <section id = "contact" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">pongase en contacto con nosotros</span>
+                    <h2 class = "lg-title">contactenos</h2>
+                </div>
+
+                <div class = "contact-row">
+                    <div class = "contact-left">
+                        <form class = "contact-form">
+                            <input type = "text" class = "form-control" placeholder="Your name">
+                            <input type = "email" class = "form-control" placeholder="Your email">
+                            <textarea rows = "4" class = "form-control" placeholder="Your message" style = "resize: none;"></textarea>
+                            <input type = "submit" class = "btn" value = "Send message">
+                        </form>
+                    </div>
+                    <div class = "contact-right my-2">
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-phone-alt"></i>
+                            </span>
+                            <div>
+                                <span>Phone</span>
+                                <p class = "text">+01-584-886-009</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-map-marked-alt"></i>
+                            </span>
+                            <div>
+                                <span>Address</span>
+                                <p class = "text">102 East 22nd Street, NY</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-envelope"></i>
+                            </span>
+                            <div>
+                                <span>Message</span>
+                                <p class = "text">info@destinos.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Destinos <span>instintos</span>
+                    </a>
+                    <p class = "text">Brindamos una asesoría oportuna de óptima calidad que trabaja siempre pensando en usted para llegar a un nivel de servicios que nos permita alcanzar un desarrollo integral como personas y como compañía. "El turismo es nuestra pasión, nuestra forma de vida, nuestro objetivo primordial es la satisfacción de nuestros clientes.</p>
+                </div>
+                <button id="openForm"><i class="fas fa-map-marked-alt"></i> Destinos</button>
+                <div id="destinationForm" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>cual es tu Destinos</h2>
+                        <script>
+            
+                            var nombreestu = prompt("Dijitar su nombre completo:");
+            
+            
+                            alert("Hola " + nombreestu + ", bienvenido a nuestra agencia de viajes.");
+            
+                            var destino = prompt("Por favor, dijita tu destino:");
+                            var fecha = prompt("Por favor, dijita la fecha de tu viaje (DD/MM/AAAA):");
+            
+            
+                            var numBoletos = parseInt(prompt("Por favor, dijita el número de boletos:"));
+            
+            
+                            if (numBoletos > 1) {
+            
+                                alert("Gracias " + nombreestu + ", tu viaje a " + destino + " está programado para la fecha " + fecha + " con " + numBoletos + " boletos. ¡Esperamos que disfrutes tu viaje!");
+                            } else {
+                                alert("Lo siento, el número de boletos debe ser mayor a uno. Por favor, intenta de nuevo.");
+                            }
+            
+                        </script>
+            
+                    </div>
+                </div>
+            
+                <script src="./javascript.js"></script>
+            
+
+                <div class = "footer-item">
+                    <h2>siguenos: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>lugares populares:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribete al boletin</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <!-- js -->
+            </div>
+        </footer>
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>

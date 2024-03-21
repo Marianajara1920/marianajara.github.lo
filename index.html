@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>agencia de viaje</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "./font.css">
+        <link rel = "stylesheet" href = "./normalize.css">
+        <link rel = "stylesheet" href = "./utility.css">
+        <link rel = "stylesheet" href = "./estilos.css">
+        <link rel = "stylesheet" href = "./responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class="main">
+                <div class="logo">
+                <img src="./logonew.png.png">
+            </div>
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                   
+                    </div>
+                </a>
+               
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">inicio</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "galery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "servicios.html" class = "nav-link">servicios</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contacto.html" class = "nav-link">Contacto</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "paquetes.html" class = "nav-link">paquetes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+           
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>ELIGE TU PLAYA FAVORITA</h1>
+                    <p>"Haz realidad tus sueños de viaje con nuestra experiencia y pasión por explorar el mundo.".</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Elija su lugar de viaje:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="nombre del destino">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Precio ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">conozca algunos lugares antes de viajar</span>
+                    <h2 class = "lg-title">cual es tu proximo destino</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "./brasil.png" alt = "lugar destacado">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Reo De Janeiro, Brazil
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "./australia.png" alt = "lugar destacado">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                North Bondi, Australia
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "./-berlin-germany.png.jpg" alt = "lugar destacado">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, alemania
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "./thailand.png.jpg" alt = "lugar destacado">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Khwaeng wat arun, thailand
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "./italia.png" alt = "lugar destacado">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "./maldivas.png" alt = "lugar destacado">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "servicios" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">conozca los servicios que ofrecemos</span>
+                    <h2 class = "lg-title">nuestros servicios</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class="contenedor"></div>
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">El Hotel Paradise Oasis es un refugio de lujo situado en el corazón de una exuberante selva tropical. Con vistas panorámicas al océano y una arquitectura que combina a la perfección con el entorno natural, este hotel ofrece una experiencia inigualable para los viajeros que buscan una escapada tranquila y rejuvenecedora. Sus cómodas habitaciones están elegantemente decoradas con influencias locales y equipadas con todas las comodidades modernas. Los huéspedes pueden disfrutar de una variedad de servicios de primera clase, como un spa de clase mundial, una piscina de borde infinito con vistas espectaculares y una selección de restaurantes que ofrecen deliciosas opciones gastronómicas tanto locales como internacionales. Ya sea que estés buscando relajarte en la playa, explorar la rica biodiversidad de la región o simplemente disfrutar de la serenidad del entorno natural, el Hotel Paradise Oasis es el destino perfecto para una escapada inolvidable.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>guia de viaje</h3>
+                        <p class = "text">Bienvenido a la emocionante ciudad de Nueva York, donde la energía nunca se detiene y hay algo para todos los gustos. Esta guía de viaje te llevará a través de los lugares más emblemáticos y las experiencias más emocionantes que esta metrópolis tiene para ofrecer. Desde los rascacielos icónicos de Manhattan hasta los eclécticos barrios de Brooklyn, descubrirás una ciudad llena de historia, cultura y diversidad. Explora los famosos museos como el MoMA y el MET, maravíllate con las vistas desde la cima del Empire State Building y disfruta de la ecléctica escena gastronómica que ofrece desde los puestos callejeros hasta los restaurantes de alta cocina. Con consejos útiles sobre transporte, alojamiento, actividades y más, esta guía te ayudará a planificar una experiencia inolvidable en la Gran Manzana.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>planes asequibles</h3>
+                        <p class = "text">¿Sueñas con viajar pero te preocupa el presupuesto? ¡No te preocupes! En nuestra agencia de viajes, creemos que todos merecen la oportunidad de explorar el mundo sin romper el banco. Nuestros planes asequibles están diseñados para ofrecerte experiencias increíbles a precios accesibles. Ya sea que desees relajarte en una playa paradisíaca, explorar ciudades emocionantes o sumergirte en la naturaleza, tenemos opciones para todos los gustos y presupuestos. Desde escapadas de fin de semana hasta aventuras internacionales, nuestros expertos en viajes están aquí para ayudarte a encontrar la mejor oferta para ti. Además, con nuestras opciones de financiación flexible, planificar tu próximo viaje nunca ha sido más fácil. ¡Deja que nuestra agencia de viajes te ayude a convertir tus sueños de viaje en realidad sin preocuparte por el costo!</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonios" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonios</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">"Mi experiencia con esta agencia de viajes fue simplemente excepcional. Desde el momento en que me puse en contacto con ellos para planificar mi viaje hasta el regreso a casa, recibí un servicio de atención al cliente impecable. Su equipo demostró un profundo conocimiento de los destinos y opciones de viaje, y me proporcionaron recomendaciones personalizadas que hicieron que mi viaje fuera inolvidable. ¡Definitivamente los recomendaría a cualquiera que esté buscando una experiencia de viaje de alta calidad!"</p>
+                        <div class = "test-item-info">
+                            <img src = "./test-1.png.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Kevin Wilson</h3>
+                                <p class = "text">Trip to Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"¡No puedo expresar con palabras lo impresionado que estoy con esta agencia de viajes! Organizaron un viaje a medida para mí y mi familia, y superaron todas nuestras expectativas. Desde la selección de alojamientos de lujo hasta las excursiones exclusivas, cada detalle fue cuidadosamente planeado y ejecutado. Además, su atención al cliente fue excepcional; estaban disponibles en todo momento para responder a nuestras preguntas y asegurarse de que todo saliera perfecto. Definitivamente volveré a confiar en ellos para mis futuros viajes."</p>
+                        <div class = "test-item-info">
+                            <img src = "./test-2.png.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ben Davis</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"¡Increíblemente profesional y dedicado! Así describiría a esta agencia de viajes. Desde el momento en que expresé mis deseos de viaje, se pusieron manos a la obra para diseñar un itinerario que se adaptara perfectamente a mis necesidades y preferencias. Su conocimiento experto de los destinos y su atención al detalle hicieron que todo el proceso fuera sin problemas. Me sentí completamente cuidado y atendido en todo momento. Sin duda alguna, recomendaría esta agencia a cualquiera que busque una experiencia de viaje de primera clase."</p>
+                        <div class = "test-item-info">
+                            <img src = "./test-3.png.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Jaura Jones</h3>
+                                <p class = "text">Trip to Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "./video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Destinos <span>instintos</span>
+                    </a>
+                    <p class = "text">Brindamos una asesoría oportuna de óptima calidad que trabaja siempre pensando en usted para llegar a un nivel de servicios que nos permita alcanzar un desarrollo integral como personas y como compañía. "El turismo es nuestra pasión, nuestra forma de vida, nuestro objetivo primordial es la satisfacción de nuestros clientes.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>siga con nosotros: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>lugares populares:</h2>
+                    <ul>
+                        <li><a href = "#">Tainlandia</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Suiza</a></li>
+                        <li><a href = "#">alemania</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribete al boletin!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
